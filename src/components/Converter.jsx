@@ -14,7 +14,7 @@ function Converter() {
 
   return (
     <div style={styles.container}>
-    <h3>Tum till cm</h3>
+      <h1 style={styles.h1}>Tum till cm</h1>
       <div style={styles.inputContainer}>
         <label style={styles.label}>Tum:</label>
         <input
@@ -51,6 +51,9 @@ const styles = {
     border: '2px #eab2bb solid',
     paddingLeft: '0.5rem'
   },
+  h1: {
+    fontSize: '1em'
+  }
 };
 
 export default Converter;
